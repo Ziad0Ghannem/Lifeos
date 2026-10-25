@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>LifeOS</title>
+<meta name="theme-color" content="#10151D">
+<meta name="color-scheme" content="dark light">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="LifeOS">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="css/app.css">
+<link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+<div id="app" class="shell">
+  <aside id="sidebar" class="sidebar" aria-label="Main navigation"></aside>
+  <div class="main">
+    <header id="topbar" class="topbar"></header>
+    <main id="view" class="view" tabindex="-1"></main>
+  </div>
+</div>
+<div id="toasts" class="toasts" role="status" aria-live="polite"></div>
+<div id="modal-root"></div>
+<script src="vendor/chart.umd.js"></script>
+<script src="vendor/sql-wasm.js"></script>
+<script src="engine.js"></script>
+<script src="js/i18n-ar.js"></script>
+<script src="js/core.js"></script>
+<script src="js/p-finance-forms.js"></script>
+<script src="js/p-finance.js"></script>
+<script src="js/p-finance2.js"></script>
+<script src="js/p-portfolio.js"></script>
+<script src="js/p-perf.js"></script>
+<script src="js/p-perf2.js"></script>
+<script src="js/p-system.js"></script>
+<script src="js/mobile.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

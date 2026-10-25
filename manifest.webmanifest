@@ -1,0 +1,46 @@
+{
+ "name": "LifeOS",
+ "short_name": "LifeOS",
+ "description": "Personal performance and finance manager that works offline. Your data stays on your phone.",
+ "start_url": "./index.html",
+ "scope": "./",
+ "id": "./index.html",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#10151D",
+ "theme_color": "#10151D",
+ "categories": [
+  "productivity",
+  "finance"
+ ],
+ "icons": [
+  {
+   "src": "icons/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icons/icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Add expense",
+   "url": "./index.html#/finance/expenses",
+   "icons": [
+    {
+     "src": "icons/icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}
